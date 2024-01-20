@@ -97,6 +97,7 @@ for software in get_installed_software():
     print(f"  - {software}")
 
 print("\nInternet Speed:")
+print("\nIt takes time to fetch internet speed, Please wait for few minutes...")
 try:
     print(get_internet_speed())
 except Exception as e:
